@@ -1,0 +1,11 @@
+// MATCHES URLS
+const MATCHES_SCREEN_URL = '/';
+
+// TOURNAMENTS URLS
+const TOURNAMENTS_SCREEN_URL = '/tournaments';
+
+
+export {
+    MATCHES_SCREEN_URL,
+    TOURNAMENTS_SCREEN_URL
+};
