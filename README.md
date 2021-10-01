@@ -1,4 +1,4 @@
-# Before starting the app (Only if you want to see clubs' logos)
+# Before starting the app (Do 1-3 only if you want to see clubs' logos, otherwise do only points 4 and 5)
 1. If you want clubs' logos to be displayed, then create your account here: https://serpapi.com/ and get access to the api,
 free version of the plan will be enough for few requests, to see that it works well.
 2. Then paste your api key to the file `src/config/apiKeys.jsx`
