@@ -3,7 +3,7 @@
 free version of the plan will be enough for few requests, to see that it works well xD.
 2. Then paste your api key to the file `src/config/apiKeys.jsx`
 3. Enter https://cors-anywhere.herokuapp.com/corsdemo, and click `Request temporary access to the demo server`
-4. Type yarn to fetch all the dependencies.
+4. Type `yarn` to fetch all the dependencies.
 5. Now you can start the app with the `yarn start` command.
 
 Keep in mind that the free plan for the images api allows you to do only 20 requests per hour, and 100 per month, 
