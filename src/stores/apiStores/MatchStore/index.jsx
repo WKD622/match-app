@@ -85,8 +85,6 @@ class MatchStore extends ApiStore {
             this.matches = [];
         });
     }
-
-
 }
 
 export default MatchStore;

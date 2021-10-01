@@ -10,6 +10,8 @@ export const useStyles = makeStyles((theme) => ({
     appBar: {
         width: `calc(100% - ${DRAWER_WIDTH}px)`,
         marginLeft: DRAWER_WIDTH,
+        backgroundColor: "#3FDA6D",
+        color: 'black'
     },
     toolbar: theme.mixins.toolbar,
     content: {
