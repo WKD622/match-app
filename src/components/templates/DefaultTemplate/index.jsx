@@ -29,13 +29,14 @@ const DefaultTemplate = observer(({children}) => {
         }
     }, [fetched])
 
-    if (!fetched) return <Loader/>
-
     const handleTournamentChange = ({target}) => {
         const tournamentId = target.value
         chooseTournament(tournamentId)
         fetchMatches(tournamentId)
     }
+
+    if (!fetched) return <Loader/>
+
     return (
         <div className={classes.root}>
             <CssBaseline/>
