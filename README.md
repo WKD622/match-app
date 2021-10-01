@@ -1,6 +1,6 @@
 # Before starting the app (Only if you want to see clubs' logos)
 1. If you want clubs' logos to be displayed, then create your account here: https://serpapi.com/ and get access to the api,
-free version of the plan will be enough for few requests, to see that it works well xD.
+free version of the plan will be enough for few requests, to see that it works well.
 2. Then paste your api key to the file `src/config/apiKeys.jsx`
 3. Enter https://cors-anywhere.herokuapp.com/corsdemo, and click `Request temporary access to the demo server`
 4. Type `yarn` to fetch all the dependencies.
